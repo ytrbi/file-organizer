@@ -62,8 +62,8 @@ def organize_files(source_dir, dest_dir):
 
 def main():
     run_shell_script(script_path)
-    source_dir = '/Users/ya/Desktop/python/practice/files/dummy-files'  # Use absolute path
-    dest_dir = '/Users/ya/Desktop/python/practice/files/organized_files'  # Use absolute path
+    source_dir = './dummy-files' 
+    dest_dir = './organized_files' 
     organize_files(source_dir, dest_dir)
 
 main()
